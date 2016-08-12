@@ -1,0 +1,27 @@
+{
+  "name": "lesson4",
+  "version": "1.0.0",
+  "description": "study from alsotang",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoBulgaria/nodejsfromalsotang.git"
+  },
+  "keywords": [
+    "android123456"
+  ],
+  "author": "bulgaria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoBulgaria/nodejsfromalsotang/issues"
+  },
+  "homepage": "https://github.com/xiaoBulgaria/nodejsfromalsotang#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "eventproxy": "^0.3.5",
+    "superagent": "^2.1.0"
+  }
+}

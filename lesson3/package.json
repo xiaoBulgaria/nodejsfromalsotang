@@ -1,0 +1,27 @@
+{
+  "name": "lesson3",
+  "version": "0.0.0",
+  "description": "使用工具完成爬虫功能",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoBulgaria/nodejsfromalsotang.git"
+  },
+  "keywords": [
+    "android123456"
+  ],
+  "author": "xiaoBulgaria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoBulgaria/nodejsfromalsotang/issues"
+  },
+  "homepage": "https://github.com/xiaoBulgaria/nodejsfromalsotang#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "express": "^4.14.0",
+    "superagent": "^2.1.0"
+  }
+}
