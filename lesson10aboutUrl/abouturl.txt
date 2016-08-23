@@ -1,0 +1,32 @@
+{ parse: [Function: urlParse],
+  resolve: [Function: urlResolve],
+  resolveObject: [Function: urlResolveObject],
+  format: [Function: urlFormat],
+  Url: [Function: Url] }
+>
+
+
+ url.parse("http://jingyan.baidu.com/album/1876c852bcab82890b13768f.html?picind
+x=11")
+rl {
+ protocol: 'http:',
+ slashes: true,
+ auth: null,
+ host: 'jingyan.baidu.com',
+ port: null,
+ hostname: 'jingyan.baidu.com',
+ hash: null,
+ search: '?picindex=11',
+ query: 'picindex=11',
+ pathname: '/album/1876c852bcab82890b13768f.html',
+ path: '/album/1876c852bcab82890b13768f.html?picindex=11',
+ href: 'http://jingyan.baidu.com/album/1876c852bcab82890b13768f.html?picindex=1
+' }
+
+url.parse(urlStr, [parseQueryString], [slashesDenoteHost])
+接收参数：
+urlStr                                       url字符串
+parseQueryString                   为true时将使用查询模块分析查询字符串，默认为false
+slashesDenoteHost               
+默认为false，//foo/bar 形式的字符串将被解释成 { pathname: ‘//foo/bar' }
+如果设置成true，//foo/bar 形式的字符串将被解释成  { host: ‘foo', pathname: ‘/bar' }
