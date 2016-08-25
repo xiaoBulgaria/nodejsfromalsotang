@@ -1,0 +1,15 @@
+querystring.stringify({name:'scott',course:['jade','node'],from:''})
+ame=scott&course=jade&course=node&from='
+querystring.stringify({name:'scott',course:['jade','node'],from:''},',')
+ame=scott,course=jade,course=node,from='
+querystring.stringify({name:'scott',course:['jade','node'],from:''},',',':')
+ame:scott,course:jade,course:node,from:'
+querystring.parse('name=scott&course=jade&course=node&from=')
+name: 'scott', course: [ 'jade', 'node' ], from: '' }
+querystring.parse('name=scott&course=jade&course=node&from=','')
+querystring.parse('name=scott,course=jade,course=node,from=',',')
+name: 'scott', course: [ 'jade', 'node' ], from: '' }
+querystring.escape('<込込>')
+3C%E5%93%88%E5%93%88%3E'
+、querystring.unescape('%3C%E5%93%88%E5%93%88%3E')
+. 、querystring.unescape('<%3C%E5%93%88%E5%93%88%3E>')
